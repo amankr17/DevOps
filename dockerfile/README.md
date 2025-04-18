@@ -7,14 +7,14 @@
 - helloworld.cpp
 
 #### test the it on local
-g++ helloworld.cpp
+- g++ helloworld.cpp
 
 #### output####
-./a.out
+- ./a.out
 
 #### create dockerfile name dockerfile####
-vim dockerfile
+- vim dockerfile
 
 #### Build docker image ####
 
-docker build -t giveimagename:versionname . # full stop indicates from same directory
+- docker build -t giveimagename:versionname . # full stop indicates from same directory

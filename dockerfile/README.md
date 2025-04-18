@@ -1,6 +1,6 @@
  # Commands that are used to create a dockerfile
 
-### First create a directory for project ***
+## First create a directory for project 
 - mkdir dockerproject
 
 #### Create code file 
@@ -12,13 +12,13 @@
 #### output ####
 - ./a.out
 
-### create dockerfile name dockerfile ####
+## create dockerfile name dockerfile ####
 - vim dockerfile
 
-### Build docker image ####
+## Build docker image ####
 - docker build -t giveimagename:versionname . # full stop indicates from same directory
 
-### Docker check images
+## Docker check images
 - docker get images
 
 ### Docker run image

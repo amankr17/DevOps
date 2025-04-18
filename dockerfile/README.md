@@ -12,15 +12,15 @@
 #### output ####
 - ./a.out
 
-## create dockerfile name dockerfile ####
+## create dockerfile name dockerfile 
 - vim dockerfile
 
 ## Build docker image ####
-- docker build -t giveimagename:versionname . ***(full stop indicates from same directory)***
+- docker build -t giveimagename:versionname . ***(Full stop indicates from same directory)***
 - docker buildx build --platform linux/amd64,linux/arm64 -t giveimagename:versionname .  ***(Alternative solution)***
 
 ## Docker check images
 - docker get images
 
 ### Docker run image
-- docker run giveimagename:versionname    #versionn name is tag for the image 
+- docker run giveimagename:versionname   ***(versionn name is tag for the image)*** 

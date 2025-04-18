@@ -16,5 +16,10 @@
 - vim dockerfile
 
 #### Build docker image ####
-
 - docker build -t giveimagename:versionname . # full stop indicates from same directory
+
+# Docker check images
+- docker get images
+
+# Docker run image
+- docker run giveimagename:versionname    #versionn name is tag for the image 

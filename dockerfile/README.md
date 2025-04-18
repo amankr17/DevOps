@@ -1,21 +1,21 @@
 **Commands that are used to create a dockerfile:**
 
-#### First create a directory for project #####
+# First create a directory for project #####
 - mkdir dockerproject
 
-#### Create code file ####
+# Create code file ####
 - helloworld.cpp
 
-#### test the it on local ####
+# test the it on local ####
 - g++ helloworld.cpp
 
-#### output ####
+# output ####
 - ./a.out
 
-#### create dockerfile name dockerfile ####
+# create dockerfile name dockerfile ####
 - vim dockerfile
 
-#### Build docker image ####
+# Build docker image ####
 - docker build -t giveimagename:versionname . # full stop indicates from same directory
 
 # Docker check images

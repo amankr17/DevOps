@@ -23,4 +23,4 @@
 - docker get images
 
 ### Docker run image
-- docker run giveimagename:versionname   ***(versionn name is tag for the image)*** 
+- docker run giveimagename:versionname   ***(version name is tag for the image)*** 

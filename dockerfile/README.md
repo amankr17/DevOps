@@ -1,6 +1,6 @@
  # Commands that are used to create a dockerfile
 
-*** First create a directory for project 
+*** First create a directory for project ***
 - mkdir dockerproject
 
 * Create code file ####

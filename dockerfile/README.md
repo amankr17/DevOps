@@ -16,7 +16,8 @@
 - vim dockerfile
 
 ## Build docker image ####
-- docker build -t giveimagename:versionname . # full stop indicates from same directory
+- docker build -t giveimagename:versionname . *full stop indicates from same directory*
+- docker buildx build --platform linux/amd64,linux/arm64 -t giveimagename:versionname .  
 
 ## Docker check images
 - docker get images

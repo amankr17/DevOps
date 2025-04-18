@@ -3,13 +3,13 @@
 ### First create a directory for project ***
 - mkdir dockerproject
 
-* Create code file ####
+#### Create code file 
 - helloworld.cpp
 
-* test the it on local ####
+#### test the it on local 
 - g++ helloworld.cpp
 
-### output ####
+#### output ####
 - ./a.out
 
 ### create dockerfile name dockerfile ####
